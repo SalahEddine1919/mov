@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find manipulator_gazebo)/launch/manipulator_gazebo.launch"/>
+    <include file="$(find manipulator_moveit_config)/launch/manipulator_planning_execution.launch"/>
+</launch>
